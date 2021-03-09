@@ -11,7 +11,7 @@ test('should sort objects of persons by health in descending order', () => {
     { name: 'маг', health: 100 },
     { name: 'лучник', health: 80 },
     { name: 'мечник', health: 10 },
-  ]
+  ];
   const received = sortPersonsByHealth(arrayPersons);
   expect(received).toEqual(result);
   expect(received).not.toBe(result);
